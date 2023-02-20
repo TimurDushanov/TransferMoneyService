@@ -16,7 +16,7 @@
 
 Все поля для отправки объекта валидированы.
 
-Логгирование всех операция производится в [файл] (https://github.com/TimurDushanov/TransferMoneyService/blob/master/transferMoney.log).
+Логгирование всех операция производится в [файл](https://github.com/TimurDushanov/TransferMoneyService/blob/master/transferMoney.log).
 
 
 ## Запросы
