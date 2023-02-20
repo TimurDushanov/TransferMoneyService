@@ -7,7 +7,7 @@
 Разработка backend API для Сервиса перевода денег. [Техническое задание проекта](https://github.com/serp-ya/card-transfer).
 
 ## Запуск
-Для запуска приложение, необходимо склонировать репозиторий, подключить приложение [Docker](https://www.docker.com/products/docker-desktop/) 
+Для **запуска** приложениz, необходимо склонировать репозиторий, подключить приложение [Docker](https://www.docker.com/products/docker-desktop/) 
 к Intellij Idea Ultimate и запустить файл docker-compose, либо найти файл TransferMoneyServiceApplication и запустить его напрямую.
 
 ## Описание проекта
