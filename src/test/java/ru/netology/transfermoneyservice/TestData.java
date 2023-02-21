@@ -19,8 +19,8 @@ public class TestData {
     public static final String OPERATION_ID = "1";
     public static final String CODE = "0000";
 
-    public static final TransferRequest TRANSFER_REQUEST_1 = new TransferRequest (CARD_NUMBER_1, CARD_VALID_TILL_1, CARD_CVV_1, CARD_NUMBER_2, new Amount(1_000, "рубль"));
-    public static final TransferRequest TRANSFER_REQUEST_2 = new TransferRequest (CARD_NUMBER_2, CARD_VALID_TILL_2, CARD_CVV_2, CARD_NUMBER_2, new Amount(100, "рубль"));
+    public static final TransferRequest TRANSFER_REQUEST_1 = new TransferRequest (CARD_NUMBER_1, CARD_VALID_TILL_1, CARD_CVV_1, CARD_NUMBER_2, new Amount(1_000, "руб"));
+    public static final TransferRequest TRANSFER_REQUEST_2 = new TransferRequest (CARD_NUMBER_2, CARD_VALID_TILL_2, CARD_CVV_2, CARD_NUMBER_2, new Amount(100, "руб"));
 
     public static final ConfirmRequest CONFIRM_REQUEST = new ConfirmRequest(OPERATION_ID, CODE);
 }

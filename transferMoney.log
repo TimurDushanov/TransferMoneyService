@@ -1,257 +1,307 @@
-2023-02-20T13:47:53.578+03:00  INFO 3804 --- [http-nio-5500-exec-2] r.n.t.service.Service                    : Указан неверный срок действия карты
-2023-02-20T13:48:02.773+03:00  INFO 3804 --- [http-nio-5500-exec-5] r.n.t.service.Service                    : Перевод успешно осуществлен. Номер операции 1, № карты отправителя 1000000000000000, № карты получателя 2000000000000000, сумма перевода 998.0, валюта перевода рубль, комиссия за перевод 9.98
-2023-02-20T13:50:18.171+03:00  INFO 5920 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 5920 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T13:50:18.174+03:00  INFO 5920 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T13:50:20.397+03:00  INFO 5920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T13:50:20.487+03:00  INFO 5920 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T13:50:22.975+03:00  INFO 5920 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T13:50:23.143+03:00  INFO 5920 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 5.519 seconds (process running for 7.432)
-2023-02-20T13:54:25.964+03:00  INFO 3176 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 3176 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T13:54:25.967+03:00  INFO 3176 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T13:54:28.373+03:00  INFO 3176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T13:54:28.462+03:00  INFO 3176 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T13:54:31.080+03:00  INFO 3176 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T13:54:31.219+03:00  INFO 3176 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 5.706 seconds (process running for 7.666)
-2023-02-20T15:53:34.515+03:00  INFO 5724 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 5724 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T15:53:34.519+03:00  INFO 5724 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T15:53:36.860+03:00  INFO 5724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T15:53:36.972+03:00  INFO 5724 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T15:53:37.358+03:00  INFO 5724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T15:53:37.374+03:00  INFO 5724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T15:53:37.375+03:00  INFO 5724 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T15:53:37.548+03:00  INFO 5724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T15:53:37.548+03:00  INFO 5724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2915 ms
-2023-02-20T15:53:39.200+03:00  INFO 5724 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T15:53:39.292+03:00  INFO 5724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T15:53:39.313+03:00  INFO 5724 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 5.774 seconds (process running for 7.132)
-2023-02-20T15:53:39.865+03:00  INFO 5724 --- [RMI TCP Connection(6)-192.168.1.31] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T15:53:39.866+03:00  INFO 5724 --- [RMI TCP Connection(6)-192.168.1.31] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T15:53:39.867+03:00  INFO 5724 --- [RMI TCP Connection(6)-192.168.1.31] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-02-20T15:53:44.592+03:00  INFO 5724 --- [http-nio-5500-exec-3] r.n.t.service.Service                    : Перевод успешно осуществлен. Номер операции 1, № карты отправителя 1000000000000000, № карты получателя 2000000000000000, сумма перевода 998.0, валюта перевода рубль, комиссия за перевод 9.98
-2023-02-20T15:54:48.339+03:00 ERROR 5724 --- [http-nio-5500-exec-7] r.n.t.service.Service                    : операция не найдена
-2023-02-20T15:54:52.468+03:00  INFO 5724 --- [http-nio-5500-exec-9] r.n.t.service.Service                    : Перевод успешно осуществлен. Номер операции 2, № карты отправителя 1000000000000000, № карты получателя 2000000000000000, сумма перевода 998.0, валюта перевода рубль, комиссия за перевод 9.98
-2023-02-20T16:42:44.010+03:00  INFO 1364 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 1364 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T16:42:44.013+03:00  INFO 1364 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T16:42:46.022+03:00  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T16:42:46.124+03:00  INFO 1364 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T16:42:46.627+03:00  INFO 1364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2023-02-20T16:42:46.652+03:00  INFO 1364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T16:42:46.654+03:00  INFO 1364 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T16:42:46.804+03:00  INFO 1364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T16:42:46.806+03:00  INFO 1364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2751 ms
-2023-02-20T16:42:48.724+03:00  INFO 1364 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T16:42:48.910+03:00  INFO 1364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50618 (http) with context path ''
-2023-02-20T16:42:48.947+03:00  INFO 1364 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 5.684 seconds (process running for 21.082)
-2023-02-20T17:55:39.892+03:00  INFO 9460 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 9460 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T17:55:39.895+03:00  INFO 9460 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T17:55:52.473+03:00  INFO 9460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T17:55:52.752+03:00  INFO 9460 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T17:55:55.743+03:00  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2023-02-20T17:55:55.849+03:00  INFO 9460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T17:55:55.858+03:00  INFO 9460 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T17:55:56.425+03:00  INFO 9460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T17:55:56.427+03:00  INFO 9460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16393 ms
-2023-02-20T17:56:12.496+03:00  INFO 9460 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T17:56:12.870+03:00  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55904 (http) with context path ''
-2023-02-20T17:56:12.888+03:00  INFO 9460 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 36.426 seconds (process running for 91.371)
-2023-02-20T18:00:40.807+03:00  INFO 13968 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 13968 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:00:40.852+03:00  INFO 13968 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:00:56.819+03:00  INFO 13968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:00:57.152+03:00  INFO 13968 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:00:59.936+03:00  INFO 13968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2023-02-20T18:00:59.990+03:00  INFO 13968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:00:59.993+03:00  INFO 13968 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:01:01.245+03:00  INFO 13968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:01:01.258+03:00  INFO 13968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 20263 ms
-2023-02-20T18:01:21.105+03:00  INFO 13968 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:01:21.599+03:00  INFO 13968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55943 (http) with context path ''
-2023-02-20T18:01:21.829+03:00  INFO 13968 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 44.413 seconds (process running for 92.319)
-2023-02-20T18:03:33.989+03:00  INFO 9000 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 9000 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:03:34.084+03:00  INFO 9000 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:03:45.879+03:00  INFO 9000 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:03:46.121+03:00  INFO 9000 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:03:48.159+03:00  INFO 9000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2023-02-20T18:03:48.204+03:00  INFO 9000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:03:48.204+03:00  INFO 9000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:03:48.627+03:00  INFO 9000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:03:48.628+03:00  INFO 9000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14368 ms
-2023-02-20T18:03:56.393+03:00  INFO 9000 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:03:56.837+03:00  INFO 9000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55982 (http) with context path ''
-2023-02-20T18:03:56.916+03:00  INFO 9000 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 26.654 seconds (process running for 58.754)
-2023-02-20T18:07:38.624+03:00  INFO 13616 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 13616 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:07:38.630+03:00  INFO 13616 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:07:50.565+03:00  INFO 13616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:07:50.910+03:00  INFO 13616 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:07:53.226+03:00  INFO 13616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2023-02-20T18:07:53.326+03:00  INFO 13616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:07:53.331+03:00  INFO 13616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:07:54.134+03:00  INFO 13616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:07:54.137+03:00  INFO 13616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15350 ms
-2023-02-20T18:08:09.609+03:00  INFO 13616 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:08:10.215+03:00  INFO 13616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57256 (http) with context path ''
-2023-02-20T18:08:10.514+03:00  INFO 13616 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 36.731 seconds (process running for 90.756)
-2023-02-20T18:15:25.267+03:00  INFO 4000 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 4000 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:15:25.294+03:00  INFO 4000 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:15:32.466+03:00  INFO 4000 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:15:32.675+03:00  INFO 4000 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:15:34.309+03:00  INFO 4000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:15:34.363+03:00  INFO 4000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:15:34.365+03:00  INFO 4000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:15:34.977+03:00  INFO 4000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:15:34.980+03:00  INFO 4000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9300 ms
-2023-02-20T18:15:45.696+03:00  INFO 4000 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:15:46.643+03:00  INFO 4000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T18:15:46.920+03:00  INFO 4000 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 25.455 seconds (process running for 30.451)
-2023-02-20T18:15:48.849+03:00  INFO 4000 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T18:15:48.849+03:00  INFO 4000 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T18:15:48.927+03:00  INFO 4000 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 77 ms
-2023-02-20T18:20:39.396+03:00  INFO 10916 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 10916 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:20:39.414+03:00  INFO 10916 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:20:45.995+03:00  INFO 10916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:20:46.184+03:00  INFO 10916 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:20:47.568+03:00  INFO 10916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:20:47.645+03:00  INFO 10916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:20:47.648+03:00  INFO 10916 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:20:48.261+03:00  INFO 10916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:20:48.263+03:00  INFO 10916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8602 ms
-2023-02-20T18:20:53.659+03:00  INFO 10916 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:20:53.955+03:00  INFO 10916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T18:20:54.006+03:00  INFO 10916 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 17.489 seconds (process running for 21.745)
-2023-02-20T18:21:10.528+03:00  INFO 10916 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T18:21:10.529+03:00  INFO 10916 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T18:21:10.532+03:00  INFO 10916 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-02-20T18:25:53.718+03:00  INFO 1600 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 1600 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:25:53.730+03:00  INFO 1600 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:26:02.100+03:00  INFO 1600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:26:02.438+03:00  INFO 1600 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:26:03.887+03:00  INFO 1600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:26:03.923+03:00  INFO 1600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:26:03.925+03:00  INFO 1600 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:26:04.370+03:00  INFO 1600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:26:04.375+03:00  INFO 1600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10296 ms
-2023-02-20T18:26:10.256+03:00  INFO 1600 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:26:10.551+03:00  INFO 1600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T18:26:10.601+03:00  INFO 1600 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 21.273 seconds (process running for 26.241)
-2023-02-20T18:26:24.104+03:00  INFO 1600 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T18:26:24.133+03:00  INFO 1600 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T18:26:24.270+03:00  INFO 1600 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 122 ms
-2023-02-20T18:30:16.904+03:00  INFO 11996 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 11996 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:30:16.958+03:00  INFO 11996 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:30:23.889+03:00  INFO 11996 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:30:24.020+03:00  INFO 11996 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:30:25.378+03:00  INFO 11996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:30:25.413+03:00  INFO 11996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:30:25.415+03:00  INFO 11996 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:30:25.795+03:00  INFO 11996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:30:25.797+03:00  INFO 11996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8398 ms
-2023-02-20T18:30:31.299+03:00  INFO 11996 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:30:31.557+03:00  INFO 11996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T18:30:31.608+03:00  INFO 11996 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 16.713 seconds (process running for 20.569)
-2023-02-20T18:31:01.277+03:00  INFO 11996 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T18:31:01.277+03:00  INFO 11996 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T18:31:01.279+03:00  INFO 11996 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-02-20T18:49:25.610+03:00  INFO 12232 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 12232 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:49:25.627+03:00  INFO 12232 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:49:28.786+03:00  INFO 12232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:49:29.287+03:00  INFO 12232 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:49:33.545+03:00  INFO 12232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:49:33.699+03:00  INFO 12232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:49:33.702+03:00  INFO 12232 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:49:34.848+03:00  INFO 12232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:49:34.851+03:00  INFO 12232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9132 ms
-2023-02-20T18:49:43.106+03:00  INFO 12232 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:49:43.620+03:00  INFO 12232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T18:49:43.743+03:00  INFO 12232 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 19.201 seconds (process running for 22.098)
-2023-02-20T18:49:44.481+03:00  INFO 12232 --- [RMI TCP Connection(2)-192.168.1.31] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T18:49:44.483+03:00  INFO 12232 --- [RMI TCP Connection(2)-192.168.1.31] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T18:49:44.487+03:00  INFO 12232 --- [RMI TCP Connection(2)-192.168.1.31] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-02-20T18:51:12.810+03:00  INFO 15188 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 15188 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:51:12.823+03:00  INFO 15188 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:51:19.403+03:00  INFO 15188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:51:19.873+03:00  INFO 15188 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:51:20.854+03:00  INFO 15188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:51:20.893+03:00  INFO 15188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:51:20.896+03:00  INFO 15188 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:51:21.263+03:00  INFO 15188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:51:21.265+03:00  INFO 15188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8131 ms
-2023-02-20T18:51:25.458+03:00  WARN 15188 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Could not resolve placeholder 'cross.origin.host.name' in value "${cross.origin.host.name}"
-2023-02-20T18:51:25.503+03:00  INFO 15188 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-02-20T18:51:25.586+03:00  INFO 15188 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2023-02-20T18:51:25.659+03:00 ERROR 15188 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Could not resolve placeholder 'cross.origin.host.name' in value "${cross.origin.host.name}"
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.4.jar:6.0.4]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
-	at ru.netology.transfermoneyservice.TransferMoneyServiceApplication.main(TransferMoneyServiceApplication.java:10) ~[classes/:na]
-Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'cross.origin.host.name' in value "${cross.origin.host.name}"
-	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-6.0.4.jar:6.0.4]
-	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-6.0.4.jar:6.0.4]
-	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-6.0.4.jar:6.0.4]
-	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-6.0.4.jar:6.0.4]
-	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:920) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.config.EmbeddedValueResolver.resolveStringValue(EmbeddedValueResolver.java:54) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.resolveCorsAnnotationValue(RequestMappingHandlerMapping.java:529) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.updateCorsConfig(RequestMappingHandlerMapping.java:495) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.initCorsConfiguration(RequestMappingHandlerMapping.java:479) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.initCorsConfiguration(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:646) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:438) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729) ~[na:na]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225) ~[spring-webmvc-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
-	... 16 common frames omitted
-
-2023-02-20T18:53:36.058+03:00  INFO 14208 --- [main] r.n.t.TransferMoneyServiceApplication    : Starting TransferMoneyServiceApplication using Java 19.0.2 with PID 14208 (C:\Netology\transferMoneyService\target\classes started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:53:36.073+03:00  INFO 14208 --- [main] r.n.t.TransferMoneyServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:53:42.515+03:00  INFO 14208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:53:42.983+03:00  INFO 14208 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:53:44.044+03:00  INFO 14208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
-2023-02-20T18:53:44.080+03:00  INFO 14208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:53:44.081+03:00  INFO 14208 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:53:44.752+03:00  INFO 14208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:53:44.754+03:00  INFO 14208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8446 ms
-2023-02-20T18:53:49.917+03:00  INFO 14208 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:53:50.216+03:00  INFO 14208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
-2023-02-20T18:53:50.297+03:00  INFO 14208 --- [main] r.n.t.TransferMoneyServiceApplication    : Started TransferMoneyServiceApplication in 16.513 seconds (process running for 21.221)
-2023-02-20T18:54:10.582+03:00  INFO 14208 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-20T18:54:10.584+03:00  INFO 14208 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-20T18:54:10.586+03:00  INFO 14208 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-02-20T18:54:11.125+03:00  INFO 14208 --- [http-nio-5500-exec-3] r.n.t.service.Service                    : Перевод успешно осуществлен. Номер операции 1, № карты отправителя 1000000000000000, № карты получателя 2000000000000000, сумма перевода 100.0, валюта перевода RUR, комиссия за перевод 1.0
-2023-02-20T18:57:24.168+03:00  INFO 14744 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14744 (started by 88 in C:\Netology\transferMoneyService)
-2023-02-20T18:57:24.171+03:00  INFO 14744 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-02-20T18:57:29.950+03:00  INFO 14744 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-02-20T18:57:30.088+03:00  INFO 14744 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-02-20T18:57:31.195+03:00  INFO 14744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2023-02-20T18:57:31.215+03:00  INFO 14744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-20T18:57:31.215+03:00  INFO 14744 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-20T18:57:31.512+03:00  INFO 14744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-20T18:57:31.512+03:00  INFO 14744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7257 ms
-2023-02-20T18:57:37.791+03:00  INFO 14744 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-02-20T18:57:38.174+03:00  INFO 14744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56090 (http) with context path ''
-2023-02-20T18:57:38.293+03:00  INFO 14744 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 16.445 seconds (process running for 90.375)
-2023-02-20T18:59:56.939+03:00  INFO 14208 --- [http-nio-5500-exec-6] r.n.t.service.Service                    : Перевод успешно осуществлен. Номер операции 2, № карты отправителя 1000000000000000, № карты получателя 2000000000000000, сумма перевода 500.0, валюта перевода RUR, комиссия за перевод 5.0
+2023-02-21T09:52:56.371+03:00  INFO 18344 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 18344 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T09:52:56.387+03:00  INFO 18344 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T09:53:10.507+03:00  INFO 18344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T09:53:10.878+03:00  INFO 18344 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T09:53:13.383+03:00  INFO 18344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T09:53:13.440+03:00  INFO 18344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T09:53:13.443+03:00  INFO 18344 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T09:53:14.160+03:00  INFO 18344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T09:53:14.164+03:00  INFO 18344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17643 ms
+2023-02-21T09:53:27.940+03:00  INFO 18344 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T09:53:29.207+03:00  INFO 18344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59649 (http) with context path ''
+2023-02-21T09:53:29.506+03:00  INFO 18344 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 36.091 seconds (process running for 163.081)
+2023-02-21T10:52:09.417+03:00  INFO 5912 --- [main] r.n.transfermoneyservice.ServiceTest     : Starting ServiceTest using Java 19.0.2 with PID 5912 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T10:52:09.420+03:00  INFO 5912 --- [main] r.n.transfermoneyservice.ServiceTest     : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T10:52:11.382+03:00  INFO 5912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T10:52:11.430+03:00  INFO 5912 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T10:52:13.205+03:00  INFO 5912 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T10:52:13.289+03:00  INFO 5912 --- [main] r.n.transfermoneyservice.ServiceTest     : Started ServiceTest in 4.406 seconds (process running for 6.316)
+2023-02-21T10:59:39.789+03:00  INFO 7500 --- [main] r.n.transfermoneyservice.ServiceTest     : Starting ServiceTest using Java 19.0.2 with PID 7500 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T10:59:39.791+03:00  INFO 7500 --- [main] r.n.transfermoneyservice.ServiceTest     : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T10:59:43.359+03:00  INFO 7500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T10:59:43.441+03:00  INFO 7500 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T10:59:45.441+03:00  INFO 7500 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T10:59:45.526+03:00  INFO 7500 --- [main] r.n.transfermoneyservice.ServiceTest     : Started ServiceTest in 6.185 seconds (process running for 8.238)
+2023-02-21T11:04:40.338+03:00  INFO 10856 --- [main] r.n.transfermoneyservice.ServiceTest     : Starting ServiceTest using Java 19.0.2 with PID 10856 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T11:04:40.340+03:00  INFO 10856 --- [main] r.n.transfermoneyservice.ServiceTest     : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T11:04:43.628+03:00  INFO 10856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T11:04:43.728+03:00  INFO 10856 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T11:04:45.750+03:00  INFO 10856 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T11:04:45.832+03:00  INFO 10856 --- [main] r.n.transfermoneyservice.ServiceTest     : Started ServiceTest in 5.908 seconds (process running for 7.891)
+2023-02-21T12:36:09.575+03:00  INFO 10944 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 10944 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:36:09.578+03:00  INFO 10944 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:36:11.433+03:00  INFO 10944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:36:11.517+03:00  INFO 10944 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:36:12.019+03:00  INFO 10944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:36:12.038+03:00  INFO 10944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:36:12.039+03:00  INFO 10944 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:36:12.165+03:00  INFO 10944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:36:12.166+03:00  INFO 10944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2554 ms
+2023-02-21T12:36:13.560+03:00  INFO 10944 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:36:13.683+03:00  INFO 10944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58132 (http) with context path ''
+2023-02-21T12:36:13.701+03:00  INFO 10944 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.615 seconds (process running for 23.29)
+2023-02-21T12:41:40.605+03:00  INFO 1428 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 1428 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:41:40.608+03:00  INFO 1428 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:41:42.570+03:00  INFO 1428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:41:42.688+03:00  INFO 1428 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:41:43.173+03:00  INFO 1428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:41:43.192+03:00  INFO 1428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:41:43.193+03:00  INFO 1428 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:41:43.339+03:00  INFO 1428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:41:43.340+03:00  INFO 1428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2702 ms
+2023-02-21T12:41:45.072+03:00  INFO 1428 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:41:45.262+03:00  INFO 1428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58181 (http) with context path ''
+2023-02-21T12:41:45.303+03:00  INFO 1428 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 5.199 seconds (process running for 20.162)
+2023-02-21T12:43:27.327+03:00  INFO 15020 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 15020 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:43:27.332+03:00  INFO 15020 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:43:29.140+03:00  INFO 15020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:43:29.225+03:00  INFO 15020 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:43:29.635+03:00  INFO 15020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:43:29.649+03:00  INFO 15020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:43:29.650+03:00  INFO 15020 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:43:29.766+03:00  INFO 15020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:43:29.768+03:00  INFO 15020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2403 ms
+2023-02-21T12:43:31.557+03:00  INFO 15020 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:43:31.675+03:00  INFO 15020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58200 (http) with context path ''
+2023-02-21T12:43:31.693+03:00  INFO 15020 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.826 seconds (process running for 18.298)
+2023-02-21T12:44:50.428+03:00  INFO 7296 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 7296 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:44:50.432+03:00  INFO 7296 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:44:52.294+03:00  INFO 7296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:44:52.349+03:00  INFO 7296 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:44:52.788+03:00  INFO 7296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:44:52.804+03:00  INFO 7296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:44:52.804+03:00  INFO 7296 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:44:52.927+03:00  INFO 7296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:44:52.929+03:00  INFO 7296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2466 ms
+2023-02-21T12:44:54.458+03:00  INFO 7296 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:44:54.644+03:00  INFO 7296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58214 (http) with context path ''
+2023-02-21T12:44:54.667+03:00  INFO 7296 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.803 seconds (process running for 17.525)
+2023-02-21T12:45:27.430+03:00  INFO 14164 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14164 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:45:27.433+03:00  INFO 14164 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:45:29.213+03:00  INFO 14164 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:45:29.269+03:00  INFO 14164 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:45:29.687+03:00  INFO 14164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:45:29.701+03:00  INFO 14164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:45:29.701+03:00  INFO 14164 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:45:29.815+03:00  INFO 14164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:45:29.816+03:00  INFO 14164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2351 ms
+2023-02-21T12:45:31.462+03:00  INFO 14164 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:45:31.586+03:00  INFO 14164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58226 (http) with context path ''
+2023-02-21T12:45:31.617+03:00  INFO 14164 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.651 seconds (process running for 16.957)
+2023-02-21T12:49:33.954+03:00  INFO 11524 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 11524 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:49:33.956+03:00  INFO 11524 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:49:35.822+03:00  INFO 11524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:49:35.904+03:00  INFO 11524 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:49:36.354+03:00  INFO 11524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:49:36.373+03:00  INFO 11524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:49:36.373+03:00  INFO 11524 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:49:36.507+03:00  INFO 11524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:49:36.508+03:00  INFO 11524 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2521 ms
+2023-02-21T12:49:38.595+03:00  INFO 11524 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:49:38.755+03:00  INFO 11524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58273 (http) with context path ''
+2023-02-21T12:49:38.779+03:00  INFO 11524 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 5.264 seconds (process running for 19.192)
+2023-02-21T12:51:13.186+03:00  INFO 5520 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 5520 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:51:13.189+03:00  INFO 5520 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:51:14.976+03:00  INFO 5520 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:51:15.034+03:00  INFO 5520 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:51:15.592+03:00  INFO 5520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:51:15.615+03:00  INFO 5520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:51:15.616+03:00  INFO 5520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:51:15.748+03:00  INFO 5520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:51:15.749+03:00  INFO 5520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2527 ms
+2023-02-21T12:51:17.324+03:00  INFO 5520 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:51:17.467+03:00  INFO 5520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58291 (http) with context path ''
+2023-02-21T12:51:17.486+03:00  INFO 5520 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.789 seconds (process running for 17.172)
+2023-02-21T12:54:34.618+03:00  INFO 14836 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14836 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:54:34.621+03:00  INFO 14836 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:54:36.550+03:00  INFO 14836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:54:36.613+03:00  INFO 14836 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:54:37.144+03:00  INFO 14836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:54:37.164+03:00  INFO 14836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:54:37.165+03:00  INFO 14836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:54:37.309+03:00  INFO 14836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:54:37.311+03:00  INFO 14836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2657 ms
+2023-02-21T12:54:38.847+03:00  INFO 14836 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:54:38.973+03:00  INFO 14836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58335 (http) with context path ''
+2023-02-21T12:54:38.991+03:00  INFO 14836 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.814 seconds (process running for 17.473)
+2023-02-21T12:56:40.062+03:00  INFO 14400 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14400 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:56:40.065+03:00  INFO 14400 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:56:41.954+03:00  INFO 14400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:56:42.013+03:00  INFO 14400 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:56:42.528+03:00  INFO 14400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:56:42.545+03:00  INFO 14400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:56:42.546+03:00  INFO 14400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:56:42.658+03:00  INFO 14400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:56:42.659+03:00  INFO 14400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2554 ms
+2023-02-21T12:56:44.362+03:00  INFO 14400 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:56:44.509+03:00  INFO 14400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58356 (http) with context path ''
+2023-02-21T12:56:44.541+03:00  INFO 14400 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.947 seconds (process running for 17.529)
+2023-02-21T12:58:10.716+03:00  INFO 12480 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 12480 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T12:58:10.720+03:00  INFO 12480 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T12:58:11.348+03:00  WARN 12480 --- [OkHttp ConnectionPool] o.t.shaded.okhttp3.OkHttpClient          : A connection to http://docker.socket/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2023-02-21T12:58:12.621+03:00  INFO 12480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T12:58:12.676+03:00  INFO 12480 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T12:58:13.111+03:00  INFO 12480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T12:58:13.126+03:00  INFO 12480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T12:58:13.127+03:00  INFO 12480 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T12:58:13.246+03:00  INFO 12480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T12:58:13.247+03:00  INFO 12480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2494 ms
+2023-02-21T12:58:14.750+03:00  INFO 12480 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T12:58:14.898+03:00  INFO 12480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55118 (http) with context path ''
+2023-02-21T12:58:14.920+03:00  INFO 12480 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.743 seconds (process running for 17.138)
+2023-02-21T13:01:00.883+03:00  INFO 11404 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 11404 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:01:00.886+03:00  INFO 11404 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:01:02.669+03:00  INFO 11404 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:01:02.731+03:00  INFO 11404 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:01:03.165+03:00  INFO 11404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:01:03.182+03:00  INFO 11404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:01:03.183+03:00  INFO 11404 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:01:03.305+03:00  INFO 11404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:01:03.306+03:00  INFO 11404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2390 ms
+2023-02-21T13:01:04.811+03:00  INFO 11404 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:01:04.946+03:00  INFO 11404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55143 (http) with context path ''
+2023-02-21T13:01:04.969+03:00  INFO 11404 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.56 seconds (process running for 16.762)
+2023-02-21T13:01:42.028+03:00  INFO 15176 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 15176 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:01:42.032+03:00  INFO 15176 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:01:43.742+03:00  INFO 15176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:01:43.791+03:00  INFO 15176 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:01:44.234+03:00  INFO 15176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:01:44.251+03:00  INFO 15176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:01:44.251+03:00  INFO 15176 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:01:44.390+03:00  INFO 15176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:01:44.391+03:00  INFO 15176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2325 ms
+2023-02-21T13:01:46.123+03:00  INFO 15176 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:01:46.248+03:00  INFO 15176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55157 (http) with context path ''
+2023-02-21T13:01:46.267+03:00  INFO 15176 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.749 seconds (process running for 17.081)
+2023-02-21T13:02:17.395+03:00  INFO 9488 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 9488 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:02:17.398+03:00  INFO 9488 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:02:19.152+03:00  INFO 9488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:02:19.212+03:00  INFO 9488 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:02:19.637+03:00  INFO 9488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:02:19.653+03:00  INFO 9488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:02:19.654+03:00  INFO 9488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:02:19.783+03:00  INFO 9488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:02:19.785+03:00  INFO 9488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2356 ms
+2023-02-21T13:02:21.504+03:00  INFO 9488 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:02:21.640+03:00  INFO 9488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55170 (http) with context path ''
+2023-02-21T13:02:21.661+03:00  INFO 9488 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.844 seconds (process running for 17.37)
+2023-02-21T13:03:20.470+03:00  INFO 14452 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14452 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:03:20.473+03:00  INFO 14452 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:03:22.227+03:00  INFO 14452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:03:22.287+03:00  INFO 14452 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:03:22.728+03:00  INFO 14452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:03:22.758+03:00  INFO 14452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:03:22.758+03:00  INFO 14452 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:03:22.893+03:00  INFO 14452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:03:22.894+03:00  INFO 14452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2389 ms
+2023-02-21T13:03:24.418+03:00  INFO 14452 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:03:24.542+03:00  INFO 14452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55203 (http) with context path ''
+2023-02-21T13:03:24.561+03:00  INFO 14452 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.622 seconds (process running for 16.832)
+2023-02-21T13:04:05.752+03:00  INFO 14636 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14636 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:04:05.754+03:00  INFO 14636 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:04:07.527+03:00  INFO 14636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:04:07.582+03:00  INFO 14636 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:04:08.036+03:00  INFO 14636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:04:08.054+03:00  INFO 14636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:04:08.055+03:00  INFO 14636 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:04:08.176+03:00  INFO 14636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:04:08.177+03:00  INFO 14636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2391 ms
+2023-02-21T13:04:09.676+03:00  INFO 14636 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:04:09.808+03:00  INFO 14636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55218 (http) with context path ''
+2023-02-21T13:04:09.826+03:00  INFO 14636 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.589 seconds (process running for 16.733)
+2023-02-21T13:05:07.383+03:00  INFO 10280 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 10280 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:05:07.386+03:00  INFO 10280 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:05:09.144+03:00  INFO 10280 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:05:09.194+03:00  INFO 10280 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:05:09.639+03:00  INFO 10280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:05:09.655+03:00  INFO 10280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:05:09.656+03:00  INFO 10280 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:05:09.782+03:00  INFO 10280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:05:09.783+03:00  INFO 10280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2366 ms
+2023-02-21T13:05:11.431+03:00  INFO 10280 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:05:11.578+03:00  INFO 10280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55232 (http) with context path ''
+2023-02-21T13:05:11.600+03:00  INFO 10280 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.74 seconds (process running for 17.003)
+2023-02-21T13:06:14.238+03:00  INFO 11672 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 11672 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:06:14.241+03:00  INFO 11672 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:06:16.100+03:00  INFO 11672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:06:16.178+03:00  INFO 11672 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:06:16.584+03:00  INFO 11672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:06:16.608+03:00  INFO 11672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:06:16.612+03:00  INFO 11672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:06:16.769+03:00  INFO 11672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:06:16.771+03:00  INFO 11672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2502 ms
+2023-02-21T13:06:18.317+03:00  INFO 11672 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:06:18.440+03:00  INFO 11672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55247 (http) with context path ''
+2023-02-21T13:06:18.458+03:00  INFO 11672 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.689 seconds (process running for 17.0)
+2023-02-21T13:07:23.608+03:00  INFO 3324 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 3324 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:07:23.610+03:00  INFO 3324 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:07:25.733+03:00  INFO 3324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:07:25.801+03:00  INFO 3324 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:07:26.308+03:00  INFO 3324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:07:26.325+03:00  INFO 3324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:07:26.326+03:00  INFO 3324 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:07:26.472+03:00  INFO 3324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:07:26.473+03:00  INFO 3324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2829 ms
+2023-02-21T13:07:28.387+03:00  INFO 3324 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:07:28.520+03:00  INFO 3324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55261 (http) with context path ''
+2023-02-21T13:07:28.539+03:00  INFO 3324 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 5.573 seconds (process running for 19.304)
+2023-02-21T13:09:07.576+03:00  INFO 14148 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14148 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:09:07.579+03:00  INFO 14148 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:09:09.484+03:00  INFO 14148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:09:09.544+03:00  INFO 14148 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:09:10.075+03:00  INFO 14148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:09:10.094+03:00  INFO 14148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:09:10.095+03:00  INFO 14148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:09:10.232+03:00  INFO 14148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:09:10.233+03:00  INFO 14148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2618 ms
+2023-02-21T13:09:12.435+03:00  INFO 14148 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:09:13.140+03:00  INFO 14148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62215 (http) with context path ''
+2023-02-21T13:09:13.166+03:00  INFO 14148 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 6.223 seconds (process running for 18.062)
+2023-02-21T13:10:24.833+03:00  INFO 11428 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 11428 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:10:24.836+03:00  INFO 11428 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:10:26.750+03:00  INFO 11428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:10:26.807+03:00  INFO 11428 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:10:27.326+03:00  INFO 11428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:10:27.344+03:00  INFO 11428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:10:27.344+03:00  INFO 11428 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:10:27.476+03:00  INFO 11428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:10:27.477+03:00  INFO 11428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2611 ms
+2023-02-21T13:10:29.083+03:00  INFO 11428 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:10:29.248+03:00  INFO 11428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64657 (http) with context path ''
+2023-02-21T13:10:29.270+03:00  INFO 11428 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.866 seconds (process running for 17.057)
+2023-02-21T13:11:06.034+03:00  INFO 14848 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 14848 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:11:06.037+03:00  INFO 14848 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:11:08.026+03:00  INFO 14848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:11:08.093+03:00  INFO 14848 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:11:08.577+03:00  INFO 14848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:11:08.597+03:00  INFO 14848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:11:08.601+03:00  INFO 14848 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:11:08.733+03:00  INFO 14848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:11:08.734+03:00  INFO 14848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2669 ms
+2023-02-21T13:11:11.245+03:00  INFO 14848 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:11:11.420+03:00  INFO 14848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64667 (http) with context path ''
+2023-02-21T13:11:11.441+03:00  INFO 14848 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 6.213 seconds (process running for 19.034)
+2023-02-21T13:11:58.043+03:00  INFO 2756 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 2756 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:11:58.045+03:00  INFO 2756 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:11:59.758+03:00  INFO 2756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:11:59.826+03:00  INFO 2756 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:12:00.341+03:00  INFO 2756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:12:00.360+03:00  INFO 2756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:12:00.361+03:00  INFO 2756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:12:00.515+03:00  INFO 2756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:12:00.516+03:00  INFO 2756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2442 ms
+2023-02-21T13:12:02.174+03:00  INFO 2756 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:12:02.319+03:00  INFO 2756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64691 (http) with context path ''
+2023-02-21T13:12:02.342+03:00  INFO 2756 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.777 seconds (process running for 18.272)
+2023-02-21T13:12:38.291+03:00  INFO 3444 --- [main] n.t.TransferMoneyServiceApplicationTests : Starting TransferMoneyServiceApplicationTests using Java 19.0.2 with PID 3444 (started by 88 in C:\Netology\transferMoneyService)
+2023-02-21T13:12:38.293+03:00  INFO 3444 --- [main] n.t.TransferMoneyServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-02-21T13:12:40.049+03:00  INFO 3444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21T13:12:40.131+03:00  INFO 3444 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-21T13:12:40.594+03:00  INFO 3444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-21T13:12:40.609+03:00  INFO 3444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21T13:12:40.610+03:00  INFO 3444 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-21T13:12:40.735+03:00  INFO 3444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21T13:12:40.736+03:00  INFO 3444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2393 ms
+2023-02-21T13:12:42.375+03:00  INFO 3444 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-21T13:12:42.503+03:00  INFO 3444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64702 (http) with context path ''
+2023-02-21T13:12:42.521+03:00  INFO 3444 --- [main] n.t.TransferMoneyServiceApplicationTests : Started TransferMoneyServiceApplicationTests in 4.679 seconds (process running for 16.992)
